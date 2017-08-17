@@ -1,0 +1,31 @@
+body{
+	text-align: justify;
+}
+	
+.column{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.pic_a{
+	display: block;
+	padding: 5px;
+	margin-bottom: 10px;
+	/*border: 1px solid #ccc;*/
+	text-decoration: none;	
+
+}
+
+.pic_a img{
+	display: block;
+	margin: 0 auto 5px;
+	border: 0;
+	vertical-align: bottom;
+	border-radius: 4px;
+	opacity: 1;
+	transition: opacity 2s;
+}
+.pic_a img[data-src]{
+	opacity: 0;
+}
